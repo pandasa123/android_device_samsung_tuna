@@ -210,7 +210,6 @@
                    width="1920"
                    height="1080"
                    frameRate="30" />
-            <!-- audio setting is ignored --> <!--
             <Audio codec="aac"
                    bitRate="96000"
                    sampleRate="48000"
