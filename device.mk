@@ -89,10 +89,6 @@ PRODUCT_PROPERTY_OVERRIDES := \
 PRODUCT_PROPERTY_OVERRIDES += \
 	media.aac_51_output_enabled=true
 
-# Don't preload EGL drivers in Zygote at boot time.
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.zygote.disable_gl_preload=true
-
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	persist.sys.usb.config=mtp
