@@ -83,6 +83,9 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 # No sync framework for this device...
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
 
+# Work around this aliasing stuff if we can.
+TARGET_HWCOMPOSER_ALIASING_UNNECESSARY := true
+
 #TARGET_PROVIDES_INIT_RC := true
 #TARGET_USERIMAGES_SPARSE_EXT_DISABLED := true
 
