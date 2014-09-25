@@ -32,6 +32,7 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 PRODUCT_PACKAGES := \
 	hwcomposer.tuna \
+	camera.tuna \
 	lights.tuna \
 	charger \
 	charger_res_images
@@ -215,10 +216,22 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # TI OMAP4
 PRODUCT_PACKAGES += \
+	libdomx \
+	libOMX_Core \
+	libOMX.TI.DUCATI1.VIDEO.H264E \
+	libOMX.TI.DUCATI1.VIDEO.MPEG4E \
+	libOMX.TI.DUCATI1.VIDEO.DECODER \
+	libOMX.TI.DUCATI1.VIDEO.DECODER.secure \
+	libOMX.TI.DUCATI1.VIDEO.CAMERA \
+	libOMX.TI.DUCATI1.MISC.SAMPLE \
+	libstagefrighthw \
+	libI420colorconvert \
+	libtiutils_custom \
 	libion_ti \
 	smc_pa_ctrl \
 	tf_daemon \
-	libtf_crypto_sst
+	libtf_crypto_sst \
+	libmm_osal \
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
