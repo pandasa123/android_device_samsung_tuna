@@ -31,7 +31,7 @@
 namespace Ti {
 namespace Camera {
 
-android::String8 DCCHandler::DCCPath("/system/etc/omapcam/");
+android::String8 DCCHandler::DCCPath("/data/misc/camera/");
 bool DCCHandler::mDCCLoaded = false;
 
 status_t DCCHandler::loadDCC(OMX_HANDLETYPE hComponent)
@@ -75,7 +75,7 @@ OMX_ERRORTYPE DCCHandler::initDCC(OMX_HANDLETYPE hComponent)
         if (eError == OMX_ErrorNone) {
             CAMHAL_LOGD("DCC URI's %s ", param.sDCCURI);
 //STARGO: Motorola does stuff differently
-#if 0
+#if 1
             android::String8 *dccDir = new android::String8();
             if ( NULL != dccDir ) {
                 dccDir->clear();
