@@ -17,13 +17,13 @@
 DEVICE_FOLDER := device/samsung/tuna
 
 # TI Enhancement Settings (Part 1)
-#OMAP_ENHANCEMENT := true
+OMAP_ENHANCEMENT := true
 #OMAP_ENHANCEMENT_BURST_CAPTURE := true
 #OMAP_ENHANCEMENT_S3D := true
 #OMAP_ENHANCEMENT_CPCAM := true
 #OMAP_ENHANCEMENT_VTC := true
-OMAP_ENHANCEMENT_MULTIGPU := true
-#BOARD_USE_TI_ENHANCED_DOMX := true
+#OMAP_ENHANCEMENT_MULTIGPU := true
+BOARD_USE_TI_ENHANCED_DOMX := true
 
 PRODUCT_VENDOR_KERNEL_HEADERS := $(DEVICE_FOLDER)/kernel-headers
 
@@ -40,7 +40,7 @@ BOARD_USE_CUSTOM_LIBION := true
 #TI_CAMERAHAL_DEBUG_ENABLED := true
 #TI_CAMERAHAL_VERBOSE_DEBUG_ENABLED := true
 #TI_CAMERAHAL_DEBUG_FUNCTION_NAMES := true
-USE_CAMERA_STUB := true
+USE_CAMERA_STUB := false
 
 # Use the non-open-source parts, if they're present
 -include vendor/samsung/tuna/BoardConfigVendor.mk
