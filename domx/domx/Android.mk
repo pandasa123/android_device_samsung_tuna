@@ -19,8 +19,8 @@ LOCAL_C_INCLUDES += \
     $(LOCAL_PATH)/../omx_core/inc \
     $(LOCAL_PATH)/../mm_osal/inc \
     $(LOCAL_PATH)/profiling/inc \
-    $(COMMON_FOLDER)/hwc/ \
-    $(COMMON_FOLDER)/libion_ti/ \
+    $(DEVICE_FOLDER)/hwc/ \
+    $(DEVICE_FOLDER)/libion_ti/ \
     system/core/include/cutils \
     hardware/libhardware/include \
      $(LOCAL_PATH)/plugins/inc/

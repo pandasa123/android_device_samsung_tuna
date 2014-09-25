@@ -1,5 +1,5 @@
 LOCAL_PATH:= $(call my-dir)
-COMMON_FOLDER := device/motorola/omap4-common
+COMMON_FOLDER := device/samsung/tuna
 
 ifeq ($(shell test $(PLATFORM_SDK_VERSION) -ge 16 || echo 1),)
 	FRAMEWORKS_MEDIA_BASE := $(TOP)/frameworks/native/include/media/hardware

@@ -51,7 +51,7 @@ endif
 CAMERAHAL_CFLAGS += -DLOG_TAG=\"CameraHal\"
 
 TI_CAMERAHAL_COMMON_INCLUDES := \
-    $(COMMON_FOLDER)/hwc \
+    $(DEVICE_FOLDER)/hwc \
     external/jpeg \
     external/jhead \
     $(LOCAL_PATH)/../libtiutils \
