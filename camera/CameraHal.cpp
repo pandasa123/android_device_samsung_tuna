@@ -3245,7 +3245,6 @@ status_t CameraHal::__takePicture(const char *params, struct timeval *captureSta
     bool isCPCamMode = false;
     android::sp<DisplayAdapter> outAdapter = 0;
     bool reuseTapout = false;
-    unsigned int intensity = DEFAULT_INTENSITY;
 
 #if PPM_INSTRUMENTATION || PPM_INSTRUMENTATION_ABS
 
