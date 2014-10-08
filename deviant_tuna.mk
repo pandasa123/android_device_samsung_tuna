@@ -29,7 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, device/samsung/tuna/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_tuna
+PRODUCT_NAME := deviant_tuna
 PRODUCT_DEVICE := tuna
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := AOSP on Tuna
+PRODUCT_BRAND := Deviant
+PRODUCT_MODEL := Deviant on Tuna
